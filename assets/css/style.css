@@ -71,7 +71,7 @@ a:hover {
     text-decoration: underline;
 }
 
-.content{
+/*.content{
     color:#777777;
     margin: 0 auto;
     background-color: #ffffff;
@@ -83,7 +83,7 @@ a:hover {
     margin-bottom: 100px;
     padding-right: 20px;
     overflow:auto;
-}
+}*/
 
 .thinline{
     float: left;
@@ -123,14 +123,17 @@ Footer{
 .piclabel{
     float: left;
     position: relative;
-    height: 50px;
+    color: white;
+    top: 108px;
+    height: 40px;
     width:150px;
     text-align: center;
     height: 30px;
-    margin-left: 20px;
-    margin-bottom: -250px;
+    background-color: #4aaaa5;
+    margin: 20px;
+
 }
-.piclabel span{
+/*.piclabel span{
     position: absolute;
     top: 98px;
     Left: 0px;
@@ -138,22 +141,18 @@ Footer{
     Color: white;
     text-align: center;
     height: 20px;
-    width: 130px;
+    width: 200px;
     padding: 10px;
 
 }
-img{
-    float:left;
 
-}
-
-.pic-container{
+ .pic-container{
     float:left;
     height: 150px;
     width: 150px;
     padding: 20px;
 
-}
+}*/
 
 input[type=text], select {
 
@@ -182,4 +181,21 @@ input[type=submit], select {
 
 }
 
+img {
+    margin-left: 20px;
+}
 
+#portfoliobox {
+    background-color: #ffffff;
+    Width:960px;
+    height: 700px;
+    margin-top: 40px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #cccccc;
+    
+}
+
+.navbar {
+    background-color:  #4aaaa5;
+}
