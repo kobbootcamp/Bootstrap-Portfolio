@@ -125,12 +125,12 @@ Footer{
     position: relative;
     color: white;
     top: 108px;
-    height: 40px;
+    Left:20px;
     width:150px;
     text-align: center;
     height: 30px;
     background-color: #4aaaa5;
-    margin: 20px;
+    /* margin: 20px; */
 
 }
 /*.piclabel span{
@@ -144,15 +144,15 @@ Footer{
     width: 200px;
     padding: 10px;
 
-}
-
- .pic-container{
-    float:left;
-    height: 150px;
-    width: 150px;
-    padding: 20px;
-
 }*/
+
+ /* .pic-container{ */
+    /* float:left; */
+    /* height: 10px; */
+    /* width: 0 auto; */
+    /* padding: 20px; */
+
+/* } */
 
 input[type=text], select {
 
@@ -183,6 +183,8 @@ input[type=submit], select {
 
 img {
     margin-left: 20px;
+    margin-top: 20px;
+    padding-bottom:20px;
 }
 
 #portfoliobox {
@@ -198,4 +200,8 @@ img {
 
 .navbar {
     background-color:  #4aaaa5;
+}
+
+form {
+  
 }
