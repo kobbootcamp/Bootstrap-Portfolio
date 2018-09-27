@@ -18,6 +18,7 @@ body{
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 24px; 
     padding: 20px;
+    width:auto
 }
 
 #headerwrapper {
@@ -85,26 +86,26 @@ a:hover {
     overflow:auto;
 }*/
 
-.thinline{
+/*.thinline{
     float: left;
     width: 100%;
     Height: 3px;
     background-color:#4aaaa5;
-}
+}*/
 
-#topgraylinecontainer{
+/*#topgraylinecontainer{
     position: relative;
     margin: 0 auto;
     top:0px;
     Left: 0px;
     Height: 3px;
-    width:920px;
+    /* width:920px; */
 
-}
+/* } */
 .grayline{
-    z-index: 1;
+    /* z-index: 1; */
     margin:0 auto;
-    width:920px;
+    width:95%;
     Height: 3px;
     background-color:#cccccc;  
 }
@@ -112,20 +113,23 @@ Footer{
     position: fixed;
     left: 0;
     bottom: 0;
-    text-align: center;
-    margin-top: 40Px;
+    /* text-align: center; */
+    margin-top: 40px;
     background-color:#666666;
+    padding: 10px;
     Width: 100%;
-    Height: 40px;
+    /* ht: 40px; */
     color: white;
 }
 
+.copyright {
+    text-align: center;
+}
 .piclabel{
-    float: left;
+    /* float: left; */
     position: relative;
+    top: 182px;
     color: white;
-    top: 108px;
-    Left:20px;
     width:150px;
     text-align: center;
     height: 30px;
@@ -146,13 +150,9 @@ Footer{
 
 }*/
 
- /* .pic-container{ */
-    /* float:left; */
-    /* height: 10px; */
-    /* width: 0 auto; */
-    /* padding: 20px; */
-
-/* } */
+  .pic-container{ 
+    margin-left: auto;
+} 
 
 input[type=text], select {
 
@@ -182,9 +182,7 @@ input[type=submit], select {
 }
 
 img {
-    margin-left: 20px;
-    margin-top: 20px;
-    padding-bottom:20px;
+   
 }
 
 #portfoliobox {
@@ -196,12 +194,4 @@ img {
     border-width: 1px;
     border-color: #cccccc;
     
-}
-
-.navbar {
-    background-color:  #4aaaa5;
-}
-
-form {
-  
 }
